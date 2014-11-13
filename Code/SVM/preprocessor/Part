@@ -1,0 +1,20 @@
+#/bin/bash
+
+#cat A B C D > ../FeatureABCD
+#cat A.label B.label C.label D.label > ../LabelABCD
+
+#cat A B D E > ../FeatureABDE
+#cat A.label B.label D.label E.label > ../LabelABDE
+
+#cat D E > ../FeatureDE
+#cat D.label E.label > ../LabelDE
+
+cat A D E > ../FeatureADE
+cat A.label D.label E.label > ../LabelADE
+
+#cat B D E > ../FeatureBDE
+#cat B.label D.label E.label > ../LabelBDE
+#wc -l B D
+#wc -l ../FeatureBD
+#wc -l B.label D.label
+#wc -l ../LabelBD

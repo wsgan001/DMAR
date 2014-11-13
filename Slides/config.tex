@@ -1,0 +1,80 @@
+%Fonts
+\setCJKmainfont[BoldFont={Adobe Heiti Std}, ItalicFont={Adobe Kaiti Std}]{Adobe Song Std}
+\setCJKsansfont{Adobe Kaiti Std}
+\setCJKmonofont{Adobe Fangsong Std}
+\setmainfont{Times New Roman}
+\setsansfont{Candara}
+\setmonofont{Bitstream Vera Sans Mono}
+
+
+%NewCommands
+\newcommand\abs[1]{\left\lvert #1 \right\rvert}
+\newcommand\floor[1]{\left\lfloor #1 \right\rfloor}
+\newcommand\ceil[1]{\left\lceil #1 \right\rceil}
+\newcommand\yin[1]{\textit{#1}}
+\newcommand\yang[1]{\textbf{#1}}
+
+
+%Theme
+%View on website: http://www.hartwork.org/beamer-theme-matrix/
+\usetheme{Warsaw}
+\usecolortheme{default}
+%\useoutertheme[subsection=false]{smoothbars}
+%\useinnertheme{rectangles}
+
+
+%Style
+\setbeamertemplate{footline}{}
+%\setbeamertemplate{footline}{{\small\insertframenumber/\inserttotalframenumber}}
+\setbeamertemplate{headline}
+{%
+	\leavevmode%
+	\hbox{%
+		\begin{beamercolorbox}[wd=.5\paperwidth,ht=2.65ex,dp=1.5ex,right]{section in head/foot}%
+			\usebeamerfont{section in head/foot}\insertsectionhead\hspace*{2ex}
+		\end{beamercolorbox}%
+		\begin{beamercolorbox}[wd=.5\paperwidth,ht=2.65ex,dp=1.5ex,left,plus1fil,rightskip=.3cm]{subsection in head/foot}%
+			\usebeamerfont{subsection in head/foot}\hspace*{2ex}\insertsubsectionhead\hfill\yang{\insertframenumber/\inserttotalframenumber}
+		\end{beamercolorbox}}%
+	\vskip0pt%
+}
+%\setbeamertemplate{theorem}[ams style]
+%\setbeamertemplate{theorems}[numbered]
+%\setbeamertemplate{lemmas}[numbered]
+
+\makeatletter
+\newenvironment<>{proofs}[1][\proofname]{%
+    \par
+    \def\insertproofname{#1\@addpunct{.}}%
+    \usebeamertemplate{proof begin}#2}
+  {\usebeamertemplate{proof end}}
+\newenvironment<>{proofc}{%
+  \setbeamertemplate{proof begin}{\begin{block}{}}
+    \par
+    \usebeamertemplate{proof begin}}
+  {\usebeamertemplate{proof end}}
+\newenvironment<>{proofe}{%
+    \par
+    \pushQED{\qed}
+    \setbeamertemplate{proof begin}{\begin{block}{}}
+    \usebeamertemplate{proof begin}}
+  {\popQED\usebeamertemplate{proof end}}
+\makeatother
+
+
+%\useoutertheme{infolines}
+%\beamertemplatetransparentcoveredhigh %makes all covered text highly transparent
+%\beamertemplatetransparentcovereddynamicmedium %makes all covered text quite transparent, but is a dynamic way. The range of dynamics is smaller
+
+
+
+
+%Animation
+%\beamerdefaultoverlayspecification{<+->}
+%Read Amber M. Smith
+
+
+
+
+%PDF
+%\hypersetup{pdfpagemode=FullScreen}

@@ -1,0 +1,48 @@
+#!/bin/bash
+
+cat ../B ../D ../E > Feature
+cat ../B.label ../D.label ../E.label > Label
+
+interval=20
+alpha=50
+SVMc=32.0
+SVMg=0.0078125
+
+./format ../X $interval X.range $alpha > X.format
+svm-scale X.format > X.scale
+
+./format ../Y $interval Y.range $alpha > Y.format
+svm-scale Y.format > Y.scale
+
+./format ../Z $interval Z.range $alpha > Z.format
+svm-scale Z.format > Z.scale
+
+for K in 13;
+do
+	echo "================================="
+	echo "Label: $K"
+
+	echo "Generating Training Data...(Interval = $interval)"
+	./convert Feature Label $K $interval $alpha > $K.train
+	echo "Scaling..."
+	svm-scale $K.train > $K.scale
+
+	echo "Training...(C = $SVMc, Gamma = $SVMg)"
+	svm-train -s 0 -t 2 -c $SVMc -g $SVMg -m 500 $K.scale $K.model
+
+	echo "Predicting..."
+	svm-predict X.scale $K.model X.out
+	svm-predict Y.scale $K.model Y.out
+	svm-predict Z.scale $K.model Z.out
+
+	echo "Remapping..."
+	./remapping X.range X.out X.$K.vote
+	./remapping Y.range Y.out Y.$K.vote
+	./remapping Z.range Z.out Z.$K.vote
+
+	rm -f $K.train $K.scale
+done
+
+rm -f Feature Label
+rm -f X.format Y.format Z.format
+rm -f X.scale Y.scale Z.scale

@@ -1,0 +1,28 @@
+#!/bin/bash
+
+#for K in 1 2 3 4 5 6 7 12 13 16 17 24;
+for K in 24;
+do
+	SVMn=0.1
+	SVMg=0.0004
+
+	echo "================================="
+	echo "Label: $K"
+
+	echo "Training...(Nu = $SVMn, Gamma = $SVMg)"
+	svm-train -s 2 -t 2 -n $SVMn -g $SVMg -m 500 $K.train $K.modelA
+
+	echo "Predicting..."
+	svm-predict FeatureABE.format $K.modelA $K.outA
+
+	echo "Remapping..."
+	./remapping $K.outA temp
+
+	sed "s/-1/0/g" temp > temp1
+	sed "s/1/$K/g" temp1 > $K.voteA
+
+	echo "Testing..."
+	./counter $K.voteA LabelABE $K
+done
+
+

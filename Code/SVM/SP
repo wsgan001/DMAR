@@ -1,0 +1,86 @@
+#!/bin/bash
+
+interval=50
+alpha=50
+for K in 17;
+do
+	echo "================================="
+	echo "Label: $K"
+	echo "Generating Training Data...(Interval = $interval)"
+	./convert Feature Label $K $interval $alpha > $K.train
+	echo "Scaling..."
+	svm-scale $K.train > $K.scale
+done
+./format data/X $interval X.range $alpha > X.format
+svm-scale X.format > X.scale
+
+
+#interval=50
+#alpha=50
+#for K in 5;
+#do
+#	echo "================================="
+#	echo "Label: $K"
+#	echo "Generating Training Data...(Interval = $interval)"
+#	./convert FeatureBE LabelBE $K $interval $alpha > $K.train
+#	echo "Scaling..."
+#	svm-scale $K.train > $K.scale
+#done
+#./format data/X $interval X.range $alpha > X.format
+#svm-scale X.format > X.scale
+
+#interval=50
+#alpha=50
+#for K in 13;
+#do
+#	echo "================================="
+#	echo "Label: $K"
+#	echo "Generating Training Data...(Interval = $interval)"
+#	./convert FeatureBDE LabelBDE $K $interval $alpha > $K.train
+#	echo "Scaling..."
+#	svm-scale $K.train > $K.scale
+#done
+#./format data/X $interval X.range $alpha > X.format
+#svm-scale X.format > X.scale
+
+#interval=100
+#alpha=10
+#for K in 3;
+#do
+#	echo "================================="
+#	echo "Label: $K"
+#	echo "Generating Training Data...(Interval = $interval)"
+#	./convert FeatureBCDE LabelBCDE $K $interval $alpha > $K.train
+#	echo "Scaling..."
+#	svm-scale $K.train > $K.scale
+#done
+#./format data/X $interval X.range $alpha > X.format
+#svm-scale X.format > X.scale
+
+#for K in 1 2 3 4 5 6 7 12 13 16 17 24;
+
+
+#interval=100
+#alpha=10
+#for K in 2;
+#do
+#	echo "================================="
+#	echo "Label: $K"
+#	echo "Generating Training Data...(Interval = $interval)"
+#	./convert FeatureDE LabelDE $K $interval $alpha > $K.train
+#	echo "Scaling..."
+#	svm-scale $K.train > $K.scale
+#done
+#./format data/X $interval X.range $alpha > X.format
+#svm-scale X.format > X.scale
+
+#BCDE
+#for K in 1;
+#do
+#	echo "================================="
+#	echo "Label: $K"
+#	echo "Generating Training Data...(Interval = $interval)"
+#	./convert FeatureBCDE LabelBCDE $K $interval $alpha > $K.train
+#	echo "Scaling..."
+#	svm-scale $K.train > $K.scale
+#done

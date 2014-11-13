@@ -1,0 +1,29 @@
+#!/bin/bash
+
+echo "================================="
+echo "Arbitrating X..."
+for K in 1 2 3 4 5 6 7 12 13 16 17 24;
+do
+	echo "Copying the votes from $K..."
+	cp $K/X.$K.vote $K.vote
+done
+./arbiter Pr X.label
+
+echo "================================="
+echo "Arbitrating Y..."
+for K in 1 2 3 4 5 6 7 12 13 16 17 24;
+do
+	echo "Copying the votes from $K..."
+	cp $K/Y.$K.vote $K.vote
+done
+./arbiter Pr Y.label
+
+echo "================================="
+echo "Arbitrating Z..."
+for K in 1 2 3 4 5 6 7 12 13 16 17 24;
+do
+	echo "Copying the votes from $K..."
+	cp $K/Z.$K.vote $K.vote
+done
+./arbiter Pr Z.label
+

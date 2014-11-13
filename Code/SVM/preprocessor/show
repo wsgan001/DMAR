@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for K in A B C D E
+do
+	paste $K.label $K | awk '$1 == 16 { print $0 }' > temp.$K
+done

@@ -1,0 +1,14 @@
+#!/bin/bash
+
+for K in 24;
+do
+	interval=10
+	echo "================================="
+	echo "Label: $K"
+	echo "Generating Training Data...(Interval = $interval)"
+	./convert Feature Label $K $interval > $K.train
+	#./format FeatureABE $interval > FeatureABE.format
+done
+
+
+

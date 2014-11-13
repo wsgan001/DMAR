@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cat A B E C D > ../Feature
+cat A.label B.label E.label C.label D.label > ../Label
+
+wc -l A B E C D
+wc -l ../Feature
+wc -l A.label B.label E.label C.label D.label
+wc -l ../Label

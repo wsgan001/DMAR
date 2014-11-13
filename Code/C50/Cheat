@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+for K in 12;
+do
+	echo "================================="
+	echo "Label: $K"
+
+	sed "s/-1/0/g" $K.vote > temp
+	sed "s/1/$K/g" temp > $K.cheat
+
+done
+

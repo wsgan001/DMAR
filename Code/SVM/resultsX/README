@@ -1,0 +1,72 @@
+X \ 24
+
+A
+2.8271	0.6331	0.0133
+B
+2.6769	0.9441	0.0000
+C
+1.9428	0.7379	0.0000
+D
+2.8773	0.9727	0.0000
+E
+3.3099	0.9639	0.0000
+F
+4.5532	0.9375	0.0000
+G
+4.5945	0.9675	0.0000
+H
+4.2291	0.7962	0.0000
+I
+8.4563	0.9879	0.3265
+J
+8.7203	0.9879	0.5267
+K
+8.7521	0.9879	0.5267
+L
+8.9783	0.9879	0.5433		50_20
+M
+8.7294	0.9861	0.4374		25_40
+N
+9.0923	0.9879	0.5676		50_20 + 25_40 * Label2		50_20A
+O
+9.0762	0.9879	0.5676		50_20 + Label2 from BDE
+P
+9.1269	0.9879	0.5676		50_20 + Label2 from BDE + Label3 from BCDE
+Q
+9.2207	0.9879	0.6589		50_20 + Label2 from BDE + Label3 from BCDE + Label13 from BDE
+R
+9.2404	0.9879	0.6589		50_20 + Label2 from BDE + Label3 from BCDE + 50_40 * Label13 from BDE
+S(lost)
+9.2645	0.9879	0.6589		50_20 + Label2 from BDE + Label3 from BCDE + 50_50 * Label13 from BDE
+T
+9.2928	0.9879	0.6872		50_20 + 50_50 * Label2 from BDE + Label3 from BCDE + 50_50 * Label13 from BDE
+S
+9.4758	0.9879	0.7017		50_20 + 10_100 * Label2 from BDE(+tp, -temperature) + Label3 from BCDE + 50_50 * Label13 from BDE
+U
+9.5116	0.9879	0.7017		50_20 + 10_100 * Label2 from DE(+tp, -temperature) + Label3 from BCDE + 50_50 * Label13 from BDE
+V(lost)
+9.6208	0.9879	0.7362		50_20 + 10_100 * Label2 from DE(+tp, -temperature) + 10_100 * Label3 from BCDE(+tp, -temperature) + 50_50 * Label13 from BDE
+W
+9.7040	0.9879	0.7525		50_20 + 10_100 * Label2 from DE(+tp, -temperature) + 10_100 * Label3 from BCDE(+tp, -temperature) + 50_50 * Label13 from BDE(+tp, -temperature)
+X
+9.8787	0.9879	0.7525		50_20 + 10_100 * Label2 from DE(+tp, -temperature) + 10_100 * Label3 from BCDE(+tp, -temperature) + 50_50 * Label13 from BDE(+tp, -temperature) + 50_50 * Label5 from BDE(+tp, -temperature)
+Y
+9.7704	0.9879	0.7525		50_20(+, -) + Label16(orginal) + 10_100 * Label2 from DE(+tp, -temperature) + 10_100 * Label3 from BCDE(+tp, -temperature) + 50_50 * Label13 from BDE(+tp, -temperature) + 50_50 * Label5 from BDE(+tp, -temperature)
+Z
+9.8469	0.9879	0.7525		50_20(-temperature) + Label12(Bin=3, -tp, +temperature) + Label16(orginal) + 10_100 * Label2 from DE(+tp, -temperature) + 10_100 * Label3 from BCDE(+tp, -temperature) + 50_50 * Label13 from BDE(+tp, -temperature) + 50_50 * Label5 from BDE(+tp, -temperature)
+XA
+9.9284	0.9879	0.7525		50_20(-temperature) + Label12(Bin=3, -tp, +temperature) + Label16(orginal) + 10_100 * Label2 from DE(+tp, -temperature) + 10_100 * Label3 from BCDE(+tp, -temperature) + 50_50 * Label13 from BDE(Bin=5, +tp, +temperature) + 50_50 * Label5 from BDE(+tp, -temperature)
+XB
+9.9635	0.9879	0.7876		50_20(-temperature) + Label12(Bin=3, -tp, +temperature) + Label16(Bin=5, +temperature, -tp) + 10_100 * Label2 from DE(+tp, -temperature) + 10_100 * Label3 from BCDE(+tp, -temperature) + 50_50 * Label13 from BDE(Bin=5, +tp, +temperature) + 50_50 * Label5 from BDE(+tp, -temperature)
+XC
+9.9694	0.9938	0.7876		50_20(-temperature) + Label12(Bin=3, -tp, +temperature) + Label16(Bin=5, +temperature, -tp) + 10_100 * Label2 from DE(+tp, -temperature) + 10_100 * Label3 from BCDE(+tp, -temperature) + 50_50 * Label13 from BDE(Bin=5, +tp, +temperature) + 50_50 * Label5 from BDE(+tp, -temperature) + 40_20 * Label1(+temperature, +tp)
+XD(not)
+9.9694	0.9938	0.7876		50_20(-temperature) + Label12(Bin=3, -tp, +temperature) + Label16(Bin=5, +temperature, -tp) + 10_100 * Label2 from DE(+tp, +temperature) + 10_100 * Label3 from BCDE(+tp, -temperature) + 50_50 * Label13 from BDE(Bin=5, +tp, +temperature) + 50_50 * Label5 from BDE(+tp, -temperature) + 40_20 * Label1(+temperature, +tp)
+XE
+10.2170	0.9938	0.8421		50_20(-temperature) + Label12(Bin=3, -tp, +temperature) + Label16(+Haar, -tp, +temperature, -tp) + 10_100 * Label2 from DE(+tp, +temperature) + 10_100 * Label3 from BCDE(+Haar, -Bin, -tp, +temperature) + 50_50 * Label13 from BDE(Bin=5, +tp, +temperature) + 50_50 * Label5 from BDE(+tp, -temperature) + 40_20 * Label1(+temperature, +tp)
+XF
+10.2326	0.9938	0.8577		50_20(-temperature) + 50_20 * Label12(+Haar, -Bin, -tp, +temperature) from ABDE + Label16(+Haar, -tp, +temperature, -tp) + 10_100 * Label2 from DE(+tp, +temperature) + 10_100 * Label3 from BCDE(+Haar, -Bin, -tp, +temperature) + 50_50 * Label13 from BDE(Bin=5, +tp, +temperature) + 50_50 * Label5 from BDE(+tp, -temperature) + 40_20 * Label1(+temperature, +tp)
+XG
+10.3234	0.9938	0.8577		50_20(-temperature) + 50_20 * Label12(+Haar, -Bin, -tp, +temperature) from ABDE + Label16(+Haar, -tp, +temperature, -tp) + 50_20 * Label2 from DE(+Haar, -Bin, -tp, -temperature) + 10_100 * Label3 from BCDE(+Haar, -Bin, -tp, +temperature) + 50_50 * Label13 from BDE(Bin=5, +tp, +temperature) + 50_50 * Label5 from BDE(+tp, -temperature) + 40_20 * Label1(+temperature, +tp)
+XH
+10.3766	0.9938	0.8577		50_20(-temperature) + 50_20 * Label12(+Haar, -Bin, -tp, +temperature) from ABDE + Label16(+Haar, -tp, +temperature, -Bin) + 50_20 * Label2 from DE(+Haar, -Bin, -tp, -temperature) + 10_100 * Label3 from BCDE(+Haar, -Bin, -tp, +temperature) + 50_50 * Label13 from BDE(Bin=5, +tp, +temperature) + 50_50 * Label5 from BDE(+tp, -temperature) + 40_20 * Label1(+temperature, +tp) + 50_50 * Label17(+Haar, -tp, -Bin)

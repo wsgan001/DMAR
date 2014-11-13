@@ -1,0 +1,33 @@
+#!/bin/bash
+
+#interval=10
+#./format FeatureABE $interval > FeatureABE.format
+#svm-scale FeatureABE.format > FeatureABE.scale
+
+for K in 1 2 3 4 5 6 7 12 13 16 17 24;
+#for K in 2;
+do
+	echo "================================="
+	echo "Label: $K"
+
+	SVMc=$(awk 'NR == '$K' { print $1 }' IV)
+	SVMg=$(awk 'NR == '$K' { print $2 }' IV)
+	#SVMc=32.0
+	#SVMg=0.0058125
+
+	echo "Training...(C = $SVMc, Gamma = $SVMg)"
+	svm-train -s 0 -t 2 -c $SVMc -g $SVMg -m 500 $K.scale $K.model
+
+	echo "Predicting..."
+	svm-predict Feature.scale $K.model $K.out
+
+	echo "Remapping..."
+	./remapping Feature.range $K.out temp
+
+	sed "s/-1/0/g" temp > temp1
+	sed "s/1/$K/g" temp1 > $K.vote
+
+	echo "Testing..."
+	./counter $K.vote Label $K
+done
+

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+for K in Y Z;
+do
+	sed "s/,/\ /g" $K.feature > $K
+done
+
+# delete last line in D

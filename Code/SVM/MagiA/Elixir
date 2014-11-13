@@ -1,0 +1,48 @@
+#!/bin/bash
+
+#awk '{ print $4 }' IV > Pr
+
+./format data/X 50 > X.format
+#./format FeatureABE 50 > FeatureABE.format
+#./format FeatureAE 200 > FeatureAE.format
+
+
+for K in 1 2 3 4 5 6 7 12 13 16 17 24;
+do
+	interval=$(awk 'NR == '$K' { print $1 }' IV)
+		#interval=10
+	SVMn=$(awk 'NR == '$K' { print $2 }' IV)
+	SVMg=$(awk 'NR == '$K' { print $3 }' IV)
+
+	echo "================================="
+	echo "Label: $K"
+
+	echo "Generating Training Data...(Interval = $interval)"
+	#./convert Feature Label $K $interval > $K.train
+
+	#./format FeatureABE $interval > test.feature
+	#./format data/X $interval > test.feature
+
+	#echo "Training...(Nu = $SVMn, Gamma = $SVMg)"
+	#svm-train -s 2 -t 2 -n $SVMn -g $SVMg -m 500 $K.train $K.modelA
+
+	#echo "Training...(Nu = Default, Gamma = Default)"
+	#svm-train -s 2 -t 2 -m 500 -n 0.1 -g 0.0003 $K.train $K.modelA
+
+	echo "Predicting..."
+	#svm-predict FeatureABE.format $K.modelA $K.outA
+	svm-predict X.format $K.modelA $K.outA
+
+	echo "Remapping..."
+	./remapping $K.outA $K.voteA
+done
+
+echo "================================="
+echo "Arbitrating..."
+
+./arbiter Pr X.label
+#./arbiter Pr test.out
+#
+#echo "Testing..."
+#./counter test.out LabelABE -1
+

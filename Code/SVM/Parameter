@@ -1,0 +1,20 @@
+#!/bin/bash
+
+#echo "================================="
+#echo "Selecting Parameters..."
+#for K in 1 2 3 4 5 6 7 12 13 16 17 24;
+#do
+#	echo "Now: $K ..."
+#	python ./libsvm-3.17/tools/grid.py -m 500 $K.scale
+#	#python ./libsvm-3.17/tools/grid.py -log2c 3,7,2 -log2g -7,-11,-2 -m 500 $K.scale
+#done
+
+for K in 12;
+do
+	echo "Now: $K ..."
+	python ./libsvm-3.17/tools/grid.py -m 500 $K.scale
+done
+
+
+#time python ./libsvm-3.17/tools/grid.py 1.scale
+

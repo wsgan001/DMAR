@@ -1,0 +1,28 @@
+#!/bin/bash
+
+#for K in 1 2 3 4 5 6 7 12 13 16 17 24;
+for K in 12;
+do
+	echo "================================="
+	echo "Label: $K"
+
+	cp X.format $K.cases
+
+	echo "Predicting..."
+
+	./sample -f $K > out
+	awk '{ print $3 }' out > temp
+
+	echo "Remapping..."
+	./remapping X.range temp $K.vote
+done
+
+echo "================================="
+echo "Arbitrating..."
+
+./arbiter Pr X.label
+
+#./arbiter Pr test.out
+#echo "Testing..."
+#./counter test.out LabelABE -1
+

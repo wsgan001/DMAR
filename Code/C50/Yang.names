@@ -1,0 +1,519 @@
+result.
+
+result:						1, -1.
+SensorA I Xavg:				continuous.
+SensorA I Yavg:				continuous.
+SensorA I Zavg:				continuous.
+SensorA I Xvar:				continuous.
+SensorA I Yvar:				continuous.
+SensorA I Zvar:				continuous.
+SensorA I Xadd:				continuous.
+SensorA I Yadd:				continuous.
+SensorA I Zadd:				continuous.
+SensorA I Xdst Bin 1:		continuous.
+SensorA I Xdst Bin 2:		continuous.
+SensorA I Xdst Bin 3:		continuous.
+SensorA I Xdst Bin 4:		continuous.
+SensorA I Xdst Bin 5:		continuous.
+SensorA I Xdst Bin 6:		continuous.
+SensorA I Xdst Bin 7:		continuous.
+SensorA I Xdst Bin 8:		continuous.
+SensorA I Xdst Bin 9:		continuous.
+SensorA I Xdst Bin 10:		continuous.
+SensorA I Ydst Bin 1:		continuous.
+SensorA I Ydst Bin 2:		continuous.
+SensorA I Ydst Bin 3:		continuous.
+SensorA I Ydst Bin 4:		continuous.
+SensorA I Ydst Bin 5:		continuous.
+SensorA I Ydst Bin 6:		continuous.
+SensorA I Ydst Bin 7:		continuous.
+SensorA I Ydst Bin 8:		continuous.
+SensorA I Ydst Bin 9:		continuous.
+SensorA I Ydst Bin 10:		continuous.
+SensorA I Zdst Bin 1:		continuous.
+SensorA I Zdst Bin 2:		continuous.
+SensorA I Zdst Bin 3:		continuous.
+SensorA I Zdst Bin 4:		continuous.
+SensorA I Zdst Bin 5:		continuous.
+SensorA I Zdst Bin 6:		continuous.
+SensorA I Zdst Bin 7:		continuous.
+SensorA I Zdst Bin 8:		continuous.
+SensorA I Zdst Bin 9:		continuous.
+SensorA I Zdst Bin 10:		continuous.
+SensorA I Xtp:				continuous.
+SensorA I Ytp:				continuous.
+SensorA I Ztp:				continuous.
+SensorA I ara:				continuous.
+SensorA II Xavg:			continuous.
+SensorA II Yavg:			continuous.
+SensorA II Zavg:			continuous.
+SensorA II Xvar:			continuous.
+SensorA II Yvar:			continuous.
+SensorA II Zvar:			continuous.
+SensorA II Xadd:			continuous.
+SensorA II Yadd:			continuous.
+SensorA II Zadd:			continuous.
+SensorA II Xdst Bin 1:		continuous.
+SensorA II Xdst Bin 2:		continuous.
+SensorA II Xdst Bin 3:		continuous.
+SensorA II Xdst Bin 4:		continuous.
+SensorA II Xdst Bin 5:		continuous.
+SensorA II Xdst Bin 6:		continuous.
+SensorA II Xdst Bin 7:		continuous.
+SensorA II Xdst Bin 8:		continuous.
+SensorA II Xdst Bin 9:		continuous.
+SensorA II Xdst Bin 10:		continuous.
+SensorA II Ydst Bin 1:		continuous.
+SensorA II Ydst Bin 2:		continuous.
+SensorA II Ydst Bin 3:		continuous.
+SensorA II Ydst Bin 4:		continuous.
+SensorA II Ydst Bin 5:		continuous.
+SensorA II Ydst Bin 6:		continuous.
+SensorA II Ydst Bin 7:		continuous.
+SensorA II Ydst Bin 8:		continuous.
+SensorA II Ydst Bin 9:		continuous.
+SensorA II Ydst Bin 10:		continuous.
+SensorA II Zdst Bin 1:		continuous.
+SensorA II Zdst Bin 2:		continuous.
+SensorA II Zdst Bin 3:		continuous.
+SensorA II Zdst Bin 4:		continuous.
+SensorA II Zdst Bin 5:		continuous.
+SensorA II Zdst Bin 6:		continuous.
+SensorA II Zdst Bin 7:		continuous.
+SensorA II Zdst Bin 8:		continuous.
+SensorA II Zdst Bin 9:		continuous.
+SensorA II Zdst Bin 10:		continuous.
+SensorA II Xtp:				continuous.
+SensorA II Ytp:				continuous.
+SensorA II Ztp:				continuous.
+SensorA II ara:				continuous.
+SensorA G Xavg:				continuous.
+SensorA G Yavg:				continuous.
+SensorA G Zavg:				continuous.
+SensorA G Xvar:				continuous.
+SensorA G Yvar:				continuous.
+SensorA G Zvar:				continuous.
+SensorA G Xadd:				continuous.
+SensorA G Yadd:				continuous.
+SensorA G Zadd:				continuous.
+SensorA G Xdst Bin 1:		continuous.
+SensorA G Xdst Bin 2:		continuous.
+SensorA G Xdst Bin 3:		continuous.
+SensorA G Xdst Bin 4:		continuous.
+SensorA G Xdst Bin 5:		continuous.
+SensorA G Xdst Bin 6:		continuous.
+SensorA G Xdst Bin 7:		continuous.
+SensorA G Xdst Bin 8:		continuous.
+SensorA G Xdst Bin 9:		continuous.
+SensorA G Xdst Bin 10:		continuous.
+SensorA G Ydst Bin 1:		continuous.
+SensorA G Ydst Bin 2:		continuous.
+SensorA G Ydst Bin 3:		continuous.
+SensorA G Ydst Bin 4:		continuous.
+SensorA G Ydst Bin 5:		continuous.
+SensorA G Ydst Bin 6:		continuous.
+SensorA G Ydst Bin 7:		continuous.
+SensorA G Ydst Bin 8:		continuous.
+SensorA G Ydst Bin 9:		continuous.
+SensorA G Ydst Bin 10:		continuous.
+SensorA G Zdst Bin 1:		continuous.
+SensorA G Zdst Bin 2:		continuous.
+SensorA G Zdst Bin 3:		continuous.
+SensorA G Zdst Bin 4:		continuous.
+SensorA G Zdst Bin 5:		continuous.
+SensorA G Zdst Bin 6:		continuous.
+SensorA G Zdst Bin 7:		continuous.
+SensorA G Zdst Bin 8:		continuous.
+SensorA G Zdst Bin 9:		continuous.
+SensorA G Zdst Bin 10:		continuous.
+SensorA G Xtp:				continuous.
+SensorA G Ytp:				continuous.
+SensorA G Ztp:				continuous.
+SensorA G ara:				continuous.
+SensorA M Xavg:				continuous.
+SensorA M Yavg:				continuous.
+SensorA M Zavg:				continuous.
+SensorA M Xvar:				continuous.
+SensorA M Yvar:				continuous.
+SensorA M Zvar:				continuous.
+SensorA M Xadd:				continuous.
+SensorA M Yadd:				continuous.
+SensorA M Zadd:				continuous.
+SensorA M Xdst Bin 1:		continuous.
+SensorA M Xdst Bin 2:		continuous.
+SensorA M Xdst Bin 3:		continuous.
+SensorA M Xdst Bin 4:		continuous.
+SensorA M Xdst Bin 5:		continuous.
+SensorA M Xdst Bin 6:		continuous.
+SensorA M Xdst Bin 7:		continuous.
+SensorA M Xdst Bin 8:		continuous.
+SensorA M Xdst Bin 9:		continuous.
+SensorA M Xdst Bin 10:		continuous.
+SensorA M Ydst Bin 1:		continuous.
+SensorA M Ydst Bin 2:		continuous.
+SensorA M Ydst Bin 3:		continuous.
+SensorA M Ydst Bin 4:		continuous.
+SensorA M Ydst Bin 5:		continuous.
+SensorA M Ydst Bin 6:		continuous.
+SensorA M Ydst Bin 7:		continuous.
+SensorA M Ydst Bin 8:		continuous.
+SensorA M Ydst Bin 9:		continuous.
+SensorA M Ydst Bin 10:		continuous.
+SensorA M Zdst Bin 1:		continuous.
+SensorA M Zdst Bin 2:		continuous.
+SensorA M Zdst Bin 3:		continuous.
+SensorA M Zdst Bin 4:		continuous.
+SensorA M Zdst Bin 5:		continuous.
+SensorA M Zdst Bin 6:		continuous.
+SensorA M Zdst Bin 7:		continuous.
+SensorA M Zdst Bin 8:		continuous.
+SensorA M Zdst Bin 9:		continuous.
+SensorA M Zdst Bin 10:		continuous.
+SensorA M Xtp:				continuous.
+SensorA M Ytp:				continuous.
+SensorA M Ztp:				continuous.
+SensorA M ara:				continuous.
+SensorB I Xavg:				continuous.
+SensorB I Yavg:				continuous.
+SensorB I Zavg:				continuous.
+SensorB I Xvar:				continuous.
+SensorB I Yvar:				continuous.
+SensorB I Zvar:				continuous.
+SensorB I Xadd:				continuous.
+SensorB I Yadd:				continuous.
+SensorB I Zadd:				continuous.
+SensorB I Xdst Bin 1:		continuous.
+SensorB I Xdst Bin 2:		continuous.
+SensorB I Xdst Bin 3:		continuous.
+SensorB I Xdst Bin 4:		continuous.
+SensorB I Xdst Bin 5:		continuous.
+SensorB I Xdst Bin 6:		continuous.
+SensorB I Xdst Bin 7:		continuous.
+SensorB I Xdst Bin 8:		continuous.
+SensorB I Xdst Bin 9:		continuous.
+SensorB I Xdst Bin 10:		continuous.
+SensorB I Ydst Bin 1:		continuous.
+SensorB I Ydst Bin 2:		continuous.
+SensorB I Ydst Bin 3:		continuous.
+SensorB I Ydst Bin 4:		continuous.
+SensorB I Ydst Bin 5:		continuous.
+SensorB I Ydst Bin 6:		continuous.
+SensorB I Ydst Bin 7:		continuous.
+SensorB I Ydst Bin 8:		continuous.
+SensorB I Ydst Bin 9:		continuous.
+SensorB I Ydst Bin 10:		continuous.
+SensorB I Zdst Bin 1:		continuous.
+SensorB I Zdst Bin 2:		continuous.
+SensorB I Zdst Bin 3:		continuous.
+SensorB I Zdst Bin 4:		continuous.
+SensorB I Zdst Bin 5:		continuous.
+SensorB I Zdst Bin 6:		continuous.
+SensorB I Zdst Bin 7:		continuous.
+SensorB I Zdst Bin 8:		continuous.
+SensorB I Zdst Bin 9:		continuous.
+SensorB I Zdst Bin 10:		continuous.
+SensorB I Xtp:				continuous.
+SensorB I Ytp:				continuous.
+SensorB I Ztp:				continuous.
+SensorB I ara:				continuous.
+SensorB II Xavg:			continuous.
+SensorB II Yavg:			continuous.
+SensorB II Zavg:			continuous.
+SensorB II Xvar:			continuous.
+SensorB II Yvar:			continuous.
+SensorB II Zvar:			continuous.
+SensorB II Xadd:			continuous.
+SensorB II Yadd:			continuous.
+SensorB II Zadd:			continuous.
+SensorB II Xdst Bin 1:		continuous.
+SensorB II Xdst Bin 2:		continuous.
+SensorB II Xdst Bin 3:		continuous.
+SensorB II Xdst Bin 4:		continuous.
+SensorB II Xdst Bin 5:		continuous.
+SensorB II Xdst Bin 6:		continuous.
+SensorB II Xdst Bin 7:		continuous.
+SensorB II Xdst Bin 8:		continuous.
+SensorB II Xdst Bin 9:		continuous.
+SensorB II Xdst Bin 10:		continuous.
+SensorB II Ydst Bin 1:		continuous.
+SensorB II Ydst Bin 2:		continuous.
+SensorB II Ydst Bin 3:		continuous.
+SensorB II Ydst Bin 4:		continuous.
+SensorB II Ydst Bin 5:		continuous.
+SensorB II Ydst Bin 6:		continuous.
+SensorB II Ydst Bin 7:		continuous.
+SensorB II Ydst Bin 8:		continuous.
+SensorB II Ydst Bin 9:		continuous.
+SensorB II Ydst Bin 10:		continuous.
+SensorB II Zdst Bin 1:		continuous.
+SensorB II Zdst Bin 2:		continuous.
+SensorB II Zdst Bin 3:		continuous.
+SensorB II Zdst Bin 4:		continuous.
+SensorB II Zdst Bin 5:		continuous.
+SensorB II Zdst Bin 6:		continuous.
+SensorB II Zdst Bin 7:		continuous.
+SensorB II Zdst Bin 8:		continuous.
+SensorB II Zdst Bin 9:		continuous.
+SensorB II Zdst Bin 10:		continuous.
+SensorB II Xtp:				continuous.
+SensorB II Ytp:				continuous.
+SensorB II Ztp:				continuous.
+SensorB II ara:				continuous.
+SensorB G Xavg:				continuous.
+SensorB G Yavg:				continuous.
+SensorB G Zavg:				continuous.
+SensorB G Xvar:				continuous.
+SensorB G Yvar:				continuous.
+SensorB G Zvar:				continuous.
+SensorB G Xadd:				continuous.
+SensorB G Yadd:				continuous.
+SensorB G Zadd:				continuous.
+SensorB G Xdst Bin 1:		continuous.
+SensorB G Xdst Bin 2:		continuous.
+SensorB G Xdst Bin 3:		continuous.
+SensorB G Xdst Bin 4:		continuous.
+SensorB G Xdst Bin 5:		continuous.
+SensorB G Xdst Bin 6:		continuous.
+SensorB G Xdst Bin 7:		continuous.
+SensorB G Xdst Bin 8:		continuous.
+SensorB G Xdst Bin 9:		continuous.
+SensorB G Xdst Bin 10:		continuous.
+SensorB G Ydst Bin 1:		continuous.
+SensorB G Ydst Bin 2:		continuous.
+SensorB G Ydst Bin 3:		continuous.
+SensorB G Ydst Bin 4:		continuous.
+SensorB G Ydst Bin 5:		continuous.
+SensorB G Ydst Bin 6:		continuous.
+SensorB G Ydst Bin 7:		continuous.
+SensorB G Ydst Bin 8:		continuous.
+SensorB G Ydst Bin 9:		continuous.
+SensorB G Ydst Bin 10:		continuous.
+SensorB G Zdst Bin 1:		continuous.
+SensorB G Zdst Bin 2:		continuous.
+SensorB G Zdst Bin 3:		continuous.
+SensorB G Zdst Bin 4:		continuous.
+SensorB G Zdst Bin 5:		continuous.
+SensorB G Zdst Bin 6:		continuous.
+SensorB G Zdst Bin 7:		continuous.
+SensorB G Zdst Bin 8:		continuous.
+SensorB G Zdst Bin 9:		continuous.
+SensorB G Zdst Bin 10:		continuous.
+SensorB G Xtp:				continuous.
+SensorB G Ytp:				continuous.
+SensorB G Ztp:				continuous.
+SensorB G ara:				continuous.
+SensorB M Xavg:				continuous.
+SensorB M Yavg:				continuous.
+SensorB M Zavg:				continuous.
+SensorB M Xvar:				continuous.
+SensorB M Yvar:				continuous.
+SensorB M Zvar:				continuous.
+SensorB M Xadd:				continuous.
+SensorB M Yadd:				continuous.
+SensorB M Zadd:				continuous.
+SensorB M Xdst Bin 1:		continuous.
+SensorB M Xdst Bin 2:		continuous.
+SensorB M Xdst Bin 3:		continuous.
+SensorB M Xdst Bin 4:		continuous.
+SensorB M Xdst Bin 5:		continuous.
+SensorB M Xdst Bin 6:		continuous.
+SensorB M Xdst Bin 7:		continuous.
+SensorB M Xdst Bin 8:		continuous.
+SensorB M Xdst Bin 9:		continuous.
+SensorB M Xdst Bin 10:		continuous.
+SensorB M Ydst Bin 1:		continuous.
+SensorB M Ydst Bin 2:		continuous.
+SensorB M Ydst Bin 3:		continuous.
+SensorB M Ydst Bin 4:		continuous.
+SensorB M Ydst Bin 5:		continuous.
+SensorB M Ydst Bin 6:		continuous.
+SensorB M Ydst Bin 7:		continuous.
+SensorB M Ydst Bin 8:		continuous.
+SensorB M Ydst Bin 9:		continuous.
+SensorB M Ydst Bin 10:		continuous.
+SensorB M Zdst Bin 1:		continuous.
+SensorB M Zdst Bin 2:		continuous.
+SensorB M Zdst Bin 3:		continuous.
+SensorB M Zdst Bin 4:		continuous.
+SensorB M Zdst Bin 5:		continuous.
+SensorB M Zdst Bin 6:		continuous.
+SensorB M Zdst Bin 7:		continuous.
+SensorB M Zdst Bin 8:		continuous.
+SensorB M Zdst Bin 9:		continuous.
+SensorB M Zdst Bin 10:		continuous.
+SensorB M Xtp:				continuous.
+SensorB M Ytp:				continuous.
+SensorB M Ztp:				continuous.
+SensorB M ara:				continuous.
+SensorC I Xavg:				continuous.
+SensorC I Yavg:				continuous.
+SensorC I Zavg:				continuous.
+SensorC I Xvar:				continuous.
+SensorC I Yvar:				continuous.
+SensorC I Zvar:				continuous.
+SensorC I Xadd:				continuous.
+SensorC I Yadd:				continuous.
+SensorC I Zadd:				continuous.
+SensorC I Xdst Bin 1:		continuous.
+SensorC I Xdst Bin 2:		continuous.
+SensorC I Xdst Bin 3:		continuous.
+SensorC I Xdst Bin 4:		continuous.
+SensorC I Xdst Bin 5:		continuous.
+SensorC I Xdst Bin 6:		continuous.
+SensorC I Xdst Bin 7:		continuous.
+SensorC I Xdst Bin 8:		continuous.
+SensorC I Xdst Bin 9:		continuous.
+SensorC I Xdst Bin 10:		continuous.
+SensorC I Ydst Bin 1:		continuous.
+SensorC I Ydst Bin 2:		continuous.
+SensorC I Ydst Bin 3:		continuous.
+SensorC I Ydst Bin 4:		continuous.
+SensorC I Ydst Bin 5:		continuous.
+SensorC I Ydst Bin 6:		continuous.
+SensorC I Ydst Bin 7:		continuous.
+SensorC I Ydst Bin 8:		continuous.
+SensorC I Ydst Bin 9:		continuous.
+SensorC I Ydst Bin 10:		continuous.
+SensorC I Zdst Bin 1:		continuous.
+SensorC I Zdst Bin 2:		continuous.
+SensorC I Zdst Bin 3:		continuous.
+SensorC I Zdst Bin 4:		continuous.
+SensorC I Zdst Bin 5:		continuous.
+SensorC I Zdst Bin 6:		continuous.
+SensorC I Zdst Bin 7:		continuous.
+SensorC I Zdst Bin 8:		continuous.
+SensorC I Zdst Bin 9:		continuous.
+SensorC I Zdst Bin 10:		continuous.
+SensorC I Xtp:				continuous.
+SensorC I Ytp:				continuous.
+SensorC I Ztp:				continuous.
+SensorC I ara:				continuous.
+SensorC II Xavg:			continuous.
+SensorC II Yavg:			continuous.
+SensorC II Zavg:			continuous.
+SensorC II Xvar:			continuous.
+SensorC II Yvar:			continuous.
+SensorC II Zvar:			continuous.
+SensorC II Xadd:			continuous.
+SensorC II Yadd:			continuous.
+SensorC II Zadd:			continuous.
+SensorC II Xdst Bin 1:		continuous.
+SensorC II Xdst Bin 2:		continuous.
+SensorC II Xdst Bin 3:		continuous.
+SensorC II Xdst Bin 4:		continuous.
+SensorC II Xdst Bin 5:		continuous.
+SensorC II Xdst Bin 6:		continuous.
+SensorC II Xdst Bin 7:		continuous.
+SensorC II Xdst Bin 8:		continuous.
+SensorC II Xdst Bin 9:		continuous.
+SensorC II Xdst Bin 10:		continuous.
+SensorC II Ydst Bin 1:		continuous.
+SensorC II Ydst Bin 2:		continuous.
+SensorC II Ydst Bin 3:		continuous.
+SensorC II Ydst Bin 4:		continuous.
+SensorC II Ydst Bin 5:		continuous.
+SensorC II Ydst Bin 6:		continuous.
+SensorC II Ydst Bin 7:		continuous.
+SensorC II Ydst Bin 8:		continuous.
+SensorC II Ydst Bin 9:		continuous.
+SensorC II Ydst Bin 10:		continuous.
+SensorC II Zdst Bin 1:		continuous.
+SensorC II Zdst Bin 2:		continuous.
+SensorC II Zdst Bin 3:		continuous.
+SensorC II Zdst Bin 4:		continuous.
+SensorC II Zdst Bin 5:		continuous.
+SensorC II Zdst Bin 6:		continuous.
+SensorC II Zdst Bin 7:		continuous.
+SensorC II Zdst Bin 8:		continuous.
+SensorC II Zdst Bin 9:		continuous.
+SensorC II Zdst Bin 10:		continuous.
+SensorC II Xtp:				continuous.
+SensorC II Ytp:				continuous.
+SensorC II Ztp:				continuous.
+SensorC II ara:				continuous.
+SensorC G Xavg:				continuous.
+SensorC G Yavg:				continuous.
+SensorC G Zavg:				continuous.
+SensorC G Xvar:				continuous.
+SensorC G Yvar:				continuous.
+SensorC G Zvar:				continuous.
+SensorC G Xadd:				continuous.
+SensorC G Yadd:				continuous.
+SensorC G Zadd:				continuous.
+SensorC G Xdst Bin 1:		continuous.
+SensorC G Xdst Bin 2:		continuous.
+SensorC G Xdst Bin 3:		continuous.
+SensorC G Xdst Bin 4:		continuous.
+SensorC G Xdst Bin 5:		continuous.
+SensorC G Xdst Bin 6:		continuous.
+SensorC G Xdst Bin 7:		continuous.
+SensorC G Xdst Bin 8:		continuous.
+SensorC G Xdst Bin 9:		continuous.
+SensorC G Xdst Bin 10:		continuous.
+SensorC G Ydst Bin 1:		continuous.
+SensorC G Ydst Bin 2:		continuous.
+SensorC G Ydst Bin 3:		continuous.
+SensorC G Ydst Bin 4:		continuous.
+SensorC G Ydst Bin 5:		continuous.
+SensorC G Ydst Bin 6:		continuous.
+SensorC G Ydst Bin 7:		continuous.
+SensorC G Ydst Bin 8:		continuous.
+SensorC G Ydst Bin 9:		continuous.
+SensorC G Ydst Bin 10:		continuous.
+SensorC G Zdst Bin 1:		continuous.
+SensorC G Zdst Bin 2:		continuous.
+SensorC G Zdst Bin 3:		continuous.
+SensorC G Zdst Bin 4:		continuous.
+SensorC G Zdst Bin 5:		continuous.
+SensorC G Zdst Bin 6:		continuous.
+SensorC G Zdst Bin 7:		continuous.
+SensorC G Zdst Bin 8:		continuous.
+SensorC G Zdst Bin 9:		continuous.
+SensorC G Zdst Bin 10:		continuous.
+SensorC G Xtp:				continuous.
+SensorC G Ytp:				continuous.
+SensorC G Ztp:				continuous.
+SensorC G ara:				continuous.
+SensorC M Xavg:				continuous.
+SensorC M Yavg:				continuous.
+SensorC M Zavg:				continuous.
+SensorC M Xvar:				continuous.
+SensorC M Yvar:				continuous.
+SensorC M Zvar:				continuous.
+SensorC M Xadd:				continuous.
+SensorC M Yadd:				continuous.
+SensorC M Zadd:				continuous.
+SensorC M Xdst Bin 1:		continuous.
+SensorC M Xdst Bin 2:		continuous.
+SensorC M Xdst Bin 3:		continuous.
+SensorC M Xdst Bin 4:		continuous.
+SensorC M Xdst Bin 5:		continuous.
+SensorC M Xdst Bin 6:		continuous.
+SensorC M Xdst Bin 7:		continuous.
+SensorC M Xdst Bin 8:		continuous.
+SensorC M Xdst Bin 9:		continuous.
+SensorC M Xdst Bin 10:		continuous.
+SensorC M Ydst Bin 1:		continuous.
+SensorC M Ydst Bin 2:		continuous.
+SensorC M Ydst Bin 3:		continuous.
+SensorC M Ydst Bin 4:		continuous.
+SensorC M Ydst Bin 5:		continuous.
+SensorC M Ydst Bin 6:		continuous.
+SensorC M Ydst Bin 7:		continuous.
+SensorC M Ydst Bin 8:		continuous.
+SensorC M Ydst Bin 9:		continuous.
+SensorC M Ydst Bin 10:		continuous.
+SensorC M Zdst Bin 1:		continuous.
+SensorC M Zdst Bin 2:		continuous.
+SensorC M Zdst Bin 3:		continuous.
+SensorC M Zdst Bin 4:		continuous.
+SensorC M Zdst Bin 5:		continuous.
+SensorC M Zdst Bin 6:		continuous.
+SensorC M Zdst Bin 7:		continuous.
+SensorC M Zdst Bin 8:		continuous.
+SensorC M Zdst Bin 9:		continuous.
+SensorC M Zdst Bin 10:		continuous.
+SensorC M Xtp:				continuous.
+SensorC M Ytp:				continuous.
+SensorC M Ztp:				continuous.
+SensorC M ara:				continuous.

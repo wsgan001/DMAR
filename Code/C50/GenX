@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#cat A.feature B.feature C.feature D.feature E.feature > Feature
+#cat A.label B.label C.label D.label E.label > Label
+cat data/A data/B data/C data/D data/E > Feature
+cat data/A.label data/B.label data/C.label data/D.label data/E.label > Label
+#awk '{ printf "1,%s\n",$1 }' Feature > Yang.cases
+#awk '{ printf "1,%s\n",$1 }' X.feature > Yin.cases

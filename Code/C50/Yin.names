@@ -1,0 +1,44 @@
+result.
+
+result:			1, -1.
+Time:			ignore.
+Heart:			ignore.
+SensorA Temp:	ignore.
+SensorA I x:	continuous.
+SensorA I y:	continuous.
+SensorA I z:	continuous.
+SensorA II x:	continuous.
+SensorA II y:	continuous.
+SensorA II z:	continuous.
+SensorA G x:	continuous.
+SensorA G y:	continuous.
+SensorA G z:	continuous.
+SensorA M x:	continuous.
+SensorA M y:	continuous.
+SensorA M z:	continuous.
+SensorB Temp:	ignore.
+SensorB I x:	continuous.
+SensorB I y:	continuous.
+SensorB I z:	continuous.
+SensorB II x:	continuous.
+SensorB II y:	continuous.
+SensorB II z:	continuous.
+SensorB G x:	continuous.
+SensorB G y:	continuous.
+SensorB G z:	continuous.
+SensorB M x:	continuous.
+SensorB M y:	continuous.
+SensorB M z:	continuous.
+SensorC Temp:	ignore.
+SensorC I x:	continuous.
+SensorC I y:	continuous.
+SensorC I z:	continuous.
+SensorC II x:	continuous.
+SensorC II y:	continuous.
+SensorC II z:	continuous.
+SensorC G x:	continuous.
+SensorC G y:	continuous.
+SensorC G z:	continuous.
+SensorC M x:	continuous.
+SensorC M y:	continuous.
+SensorC M z:	continuous.
