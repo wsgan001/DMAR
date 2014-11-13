@@ -11,7 +11,7 @@ Time Series Data - from Sensors
 * heartbeat sensors
 
 
-Magi - Data Mining 
+Magi - Data Mining System
 ---
 
 * SVM
